@@ -51,7 +51,7 @@ option(BUILD_WARNINGS_AS_ERRORS
 set(CMAKE_CXX_FLAGS "${CMAKE_FLAGS} -std=c++14")
 # Compilation flags based on cmake -Doptions
 if( BUILD_WARNINGS_AS_ERRORS )
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror -pedantic-error")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror -pedantic-errors")
   set(BUILD_SILENCE_WARNINGS OFF)
 endif()
 if( NOT BUILD_SILENCE_WARNINGS )
