@@ -11,7 +11,7 @@ folder may suffice.
 
 However, as a project grows bigger, better organization is important.
 
-This kickstarted setup helps you start new C++ CMAKE project. It also includes 
+This kickstarted setup helps you start a new C++ CMAKE project. It also includes 
 gTest (downloaded at compilation time) in order to provide a unitest framework.
 
 ## Folder structure
@@ -54,4 +54,4 @@ Addtionally this project offers the following compilation setup options
     cmake .. -DBUILD_WARNINGS_AS_ERRORS=ON
     make -j2
 
-Output binary will be in `./build/bin/` folder. It can be called by 
+Output binary will be in `./build/bin/` folder. 
