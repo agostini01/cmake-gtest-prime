@@ -39,14 +39,14 @@ set(MAIN_SRCS
   )
 
 # Declare the executable
-add_executable(${PN}
+add_executable(${BINARY_NAME}
   ${MAIN_SRCS}
   )
 
 # Specify here the libraries this program depends on
-target_link_libraries (${PN} LINK_PUBLIC 
+target_link_libraries (${BINARY_NAME} LINK_PUBLIC 
   ${PN}Example
   )
 
-#install(TARGETS ${PN} DESTINATION bin)
+#install(TARGETS ${BINARY_NAME} DESTINATION bin)
 
