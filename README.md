@@ -31,8 +31,8 @@ gTest (downloaded at compilation time) in order to provide a unitest framework.
     │   └── main.cpp
     └── test                    # folder for test
         ├── CMakeLists.txt
-            ├── example.cpp
-                └── main.cpp
+        ├── example.cpp
+        └── main.cpp
 
 ## Configuration
 
